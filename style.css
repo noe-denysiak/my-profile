@@ -1,0 +1,82 @@
+body {
+	background-color: rgb(80, 80, 80);
+	color: orange;
+	font-family: arial, serif;
+	text-align: center;
+}
+
+h1 {
+	color: orangered;
+	font-family: Century;
+	font-weight: 100;
+	font-size: 40px;
+}
+a {
+	color: orange;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+
+
+.box-white {
+	background-color: whitesmoke;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-white {
+	background-color: orange;
+	color: whitesmoke;
+	padding: 15px 20px;
+	border-radius: 10px;
+	margin: 10px 0px;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 35px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
